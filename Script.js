@@ -1,11 +1,29 @@
 console.log('Hello world');
-///the sixth task
+//the seventh task
 
-/*let anyNumStr= function(str1,str2,...rest){
-  let newString='';
-  return newString.concat(str1,str2,...rest);
+/*let calculator = function(str){
+  let newArr = str.split(' ');
+  for(let key of newArr){
+    if (key === '+'){
+      return (+newArr[0]) + (+newArr[2]);
+    }
+    if (key === '-'){
+      return (+newArr[0]) - (+newArr[2]);
+    }
+    if (key === '*'){
+      return (+newArr[0]) * (+newArr[2]);
+    }
+    if (key === '/'){
+      return (+newArr[0]) / (+newArr[2]);
+    }
+  }
+
 
 }
-console.log(anyNumStr('Hello',' my',' dear.',' How',' are',' you',' doing?'));*/
+console.log(calculator('6 + 4'));
+console.log(calculator('6 - 4'));
+console.log(calculator('6 * 4'));
+console.log(calculator('6 / 4'));*/
+
 
 
