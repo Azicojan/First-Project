@@ -1,28 +1,28 @@
 console.log('Hello world');
-//the task one
+//the task two
 
-/*let stringInfo = function(str){
-    let arr = str.split(' ');
-    let str2 = arr.join('');
-    console.log(arr);
-    console.log(str2);
+/*function numToWords(num){
+    console.log(num);
+    let ones = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine',
+              'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen',
+              'seventeen', 'eighteen', 'nineteen'];
+  let tens = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty',
+              'ninety'];
+
+  let numString = num.toString();
 
 
-    let countMarks = 0;
-    let countNumbers = 0;
+  if (num === 0) return 'zero';
 
-     for(let elem of str2){
-        if (elem === ',' || elem === '.' || elem === '?' || elem === '!' || elem === ';' || elem === '-'){
-            countMarks++;//Here I take the most common punctuation marks. The rest can be added if needed.
-        }
-        if(+(elem) ) {
-            countNumbers++;
-        }
-    }
-    let countChar = str2.length - countMarks - countNumbers;
-    console.log(`Overall,there are ${str2.length} elements in this string:`);
-    console.log(` ${countChar} characters;`)
-    console.log(` ${countMarks} punctuation marks;`);
-    console.log(` and ${countNumbers} digits.`);
+  //the case of 1 - 20
+  if (num < 20) {
+    return ones[num];
+  }
+  //>=20
+  if (numString.length === 2) {
+    return tens[numString[0]] + ' ' + ones[numString[1]];
+  }
+
+
 }
-stringInfo('There were 2345 people participating in this event;-,?!;.');*/
+console.log(numToWords(37));*/
