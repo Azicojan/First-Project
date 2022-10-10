@@ -1,20 +1,11 @@
 console.log('Hello world');
-//the fifth task
+///the sixth task
 
-/*function abbreviation (str){
-    let newStr = '';
-    let arr = str.split(' ');
-
-    for(let key of arr){
-
-      newStr += key[0].substring(0,1).toUpperCase();
-
-
-    }
-    return newStr;
+/*let anyNumStr= function(str1,str2,...rest){
+  let newString='';
+  return newString.concat(str1,str2,...rest);
 
 }
-console.log(abbreviation('cascading style sheets'));
-console.log(abbreviation('hyper text markup language'));
-console.log(abbreviation('integrated development environment'));*/
+console.log(anyNumStr('Hello',' my',' dear.',' How',' are',' you',' doing?'));*/
+
 
