@@ -1,17 +1,20 @@
 console.log('Hello world');
-//the task four
+//the fifth task
 
-/*let toCamelCase = function(css){
+/*function abbreviation (str){
+    let newStr = '';
+    let arr = str.split(' ');
 
-  for(let i = 0; i < css.length; i++){
+    for(let key of arr){
 
-    if(css[i] == '-'){
-      return css.substring(0,(i)) + css.substring((i+1),(i+2)).toUpperCase()+css.substring((i+2));
+      newStr += key[0].substring(0,1).toUpperCase();
+
 
     }
-  }
+    return newStr;
+
 }
-console.log(toCamelCase('font-size'));
-console.log(toCamelCase('background-color'));
-console.log(toCamelCase('text-align'));*/
+console.log(abbreviation('cascading style sheets'));
+console.log(abbreviation('hyper text markup language'));
+console.log(abbreviation('integrated development environment'));*/
 
