@@ -1,21 +1,17 @@
 console.log('Hello world');
-//the task three
+//the task four
 
-/*function change(str){
-   let newString = [];
+/*let toCamelCase = function(css){
 
-   for (let i = 0; i < str.length; i++){
-    if(str[i] == str[i].toLowerCase()){
-      newString[i] = str[i].toUpperCase();
-    }
-    else if (str[i] == str[i].toUpperCase()){
-      newString[i] = str[i].toLowerCase();
+  for(let i = 0; i < css.length; i++){
+
+    if(css[i] == '-'){
+      return css.substring(0,(i)) + css.substring((i+1),(i+2)).toUpperCase()+css.substring((i+2));
 
     }
-    if (+str[i]){
-      newString[i] = '_ ';
-    }
-   }
-   return newString.join('');
+  }
 }
-console.log(change('My username is MADmAx, and I was born in 12345.'));*/
+console.log(toCamelCase('font-size'));
+console.log(toCamelCase('background-color'));
+console.log(toCamelCase('text-align'));*/
+
