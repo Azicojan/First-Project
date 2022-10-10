@@ -1,39 +1,20 @@
 console.log('Hello world');
-//the eighth task
+//the task nine
 
-/*function info(url){
-  let str1;
-  let str2;
-  let str3;
-  let str4;
-  for(let i = 0; i < url.length; i++){
-    if(url[i] == ':'){
-       str1 = `protocol: ${url.substring([0],i)},`;
+/*function separately(str, separator){
 
-    }
-  };
-  for(let i = 0; i < url.length; i++){
-    if(url[i] == '/'){
-       str2 = `${url.substring([i+2],)}`;
-       break;
+
+  for(let key of str){
+    if(key === separator){
+
+       console.log(str.substring(0,str.indexOf(key)));
+       str = str.substring(str.indexOf(key)+1);
 
     }
+
   }
-  for(let i = 0; i < str2.length; i++){
-    if(str2[i] == '/'){
-      str3 = ` domain: ${str2.substring([0],i)},`;
-      break;
-    }
-  }
-  for(let i = 0; i < str2.length; i++){
-    if(str2[i] == '/'){
-      str4 = ` path: ${str2.substring([i])}.`;
-      break;
-    }
-  }
+  return str;
 
-  return str1 + str3 + str4;
 }
-console.log(info('https://itstep.org/ua/about'));*/
-
-
+//console.log(separately('10/08/2020/3256/78/9651/104','/'));
+console.log(separately('10/08/2020','/'));*/
