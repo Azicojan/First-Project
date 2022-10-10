@@ -1,29 +1,39 @@
 console.log('Hello world');
-//the seventh task
+//the eighth task
 
-/*let calculator = function(str){
-  let newArr = str.split(' ');
-  for(let key of newArr){
-    if (key === '+'){
-      return (+newArr[0]) + (+newArr[2]);
+/*function info(url){
+  let str1;
+  let str2;
+  let str3;
+  let str4;
+  for(let i = 0; i < url.length; i++){
+    if(url[i] == ':'){
+       str1 = `protocol: ${url.substring([0],i)},`;
+
     }
-    if (key === '-'){
-      return (+newArr[0]) - (+newArr[2]);
+  };
+  for(let i = 0; i < url.length; i++){
+    if(url[i] == '/'){
+       str2 = `${url.substring([i+2],)}`;
+       break;
+
     }
-    if (key === '*'){
-      return (+newArr[0]) * (+newArr[2]);
+  }
+  for(let i = 0; i < str2.length; i++){
+    if(str2[i] == '/'){
+      str3 = ` domain: ${str2.substring([0],i)},`;
+      break;
     }
-    if (key === '/'){
-      return (+newArr[0]) / (+newArr[2]);
+  }
+  for(let i = 0; i < str2.length; i++){
+    if(str2[i] == '/'){
+      str4 = ` path: ${str2.substring([i])}.`;
+      break;
     }
   }
 
-
+  return str1 + str3 + str4;
 }
-console.log(calculator('6 + 4'));
-console.log(calculator('6 - 4'));
-console.log(calculator('6 * 4'));
-console.log(calculator('6 / 4'));*/
-
+console.log(info('https://itstep.org/ua/about'));*/
 
 
