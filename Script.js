@@ -1,28 +1,21 @@
 console.log('Hello world');
-//the task two
+//the task three
 
-/*function numToWords(num){
-    console.log(num);
-    let ones = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine',
-              'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen',
-              'seventeen', 'eighteen', 'nineteen'];
-  let tens = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty',
-              'ninety'];
+/*function change(str){
+   let newString = [];
 
-  let numString = num.toString();
+   for (let i = 0; i < str.length; i++){
+    if(str[i] == str[i].toLowerCase()){
+      newString[i] = str[i].toUpperCase();
+    }
+    else if (str[i] == str[i].toUpperCase()){
+      newString[i] = str[i].toLowerCase();
 
-
-  if (num === 0) return 'zero';
-
-  //the case of 1 - 20
-  if (num < 20) {
-    return ones[num];
-  }
-  //>=20
-  if (numString.length === 2) {
-    return tens[numString[0]] + ' ' + ones[numString[1]];
-  }
-
-
+    }
+    if (+str[i]){
+      newString[i] = '_ ';
+    }
+   }
+   return newString.join('');
 }
-console.log(numToWords(37));*/
+console.log(change('My username is MADmAx, and I was born in 12345.'));*/
