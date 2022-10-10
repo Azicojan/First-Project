@@ -26,3 +26,4 @@ console.log('Hello world');
     console.log(` and ${countNumbers} digits.`);
 }
 stringInfo('There were 2345 people participating in this event;-,?!;.');*/
+console.log(2);
